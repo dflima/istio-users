@@ -32,5 +32,7 @@ module Users
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+  config.secret_key = '168df6834a73a94447a2656dd6c2edc275faf605eb662babf9c6eca97639cd276c8a5b7f8911e03c71e1b797d01e1f65cc3ae280d58faa0299603d1b58ebde1c'
   end
 end
