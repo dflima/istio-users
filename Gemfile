@@ -22,9 +22,6 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'devise'
-gem 'devise-jwt'
-
 gem 'jwt'
 
 # Reduces boot times through caching; required in config/boot.rb
